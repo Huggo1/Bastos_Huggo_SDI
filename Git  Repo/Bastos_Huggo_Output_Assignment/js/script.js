@@ -15,7 +15,7 @@ var isCompetitive = true;   //Boolean Variable
 var favoriteGame = "Super Smash Bros: Melee";        // I decided to also add a phrase.
 var mainCharacter= "Marth";            // String
 
-
+// I broke up each line because without it in the console it would just appear as 0.
 console.log("Hi my name is Huggo and my height is");
 console.log(heightFeet);
 console.log("feet and ");
@@ -30,3 +30,4 @@ console.log(favoriteGame);
 console.log("\nIn the game, my main character I play as is");
 console.log(mainCharacter);
 
+// End of Assignment
