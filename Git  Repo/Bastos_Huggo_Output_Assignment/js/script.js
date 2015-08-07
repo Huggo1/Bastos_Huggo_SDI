@@ -7,7 +7,10 @@
 var height;
 height = 178;               // Number Variable
 
+var isGamer = true;         //Boolean Variable
+var isCompetitive = true;   //Boolean Variable
 
+var leagueSummonerName = "Summano"; // String
 
 
 
