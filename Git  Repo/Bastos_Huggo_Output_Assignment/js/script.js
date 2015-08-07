@@ -1,6 +1,10 @@
 /**
  * Created by huggobastos on 8/6/15.
  */
+    // Huggo Bastos
+    // Scalable Data Infrastructures: Section 02
+    // Output Assignment
+
 // Output Assignment
 
 // This is where I'll be setting up the variables
