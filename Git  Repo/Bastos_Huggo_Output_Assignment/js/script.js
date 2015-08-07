@@ -4,18 +4,29 @@
 // Output Assignment
 
 // This is where I'll be setting up the variables
-var height;
-height = 178;               // Number Variable
+var heightFeet;
+var heightInches;
+heightFeet = 5;           // Number Variable
+heightInches = 10;
 
 var isGamer = true;         //Boolean Variable
 var isCompetitive = true;   //Boolean Variable
 
-var leagueSummonerName = "Summano"; // String
+var favoriteGame = "Super Smash Bros: Melee";        // I decided to also add a phrase.
+var mainCharacter= "Marth";            // String
 
-console.log("Hi my name is Huggo and my height is 5foot 10inches");
+
+console.log("Hi my name is Huggo and my height is");
+console.log(heightFeet);
+console.log("feet and ");
+console.log(heightInches);
+console.log("inches.");
 console.log("\nHere are two things about me. Am I a gamer?");
 console.log(isGamer);
 console.log("\nAm I competitive in nature?");
 console.log(isCompetitive);
-
+console.log("\nMy favorite game to play is");
+console.log(favoriteGame);
+console.log("\nIn the game, my main character I play as is");
+console.log(mainCharacter);
 
