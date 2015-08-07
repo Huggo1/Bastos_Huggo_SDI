@@ -11,7 +11,7 @@
 var heightFeet;
 var heightInches;
 heightFeet = 5;           // Number Variable
-heightInches = 10;
+heightInches = 10;        // Number Value. I have 2 here. One is for feet and one is for inches.
 
 var isGamer = true;         //Boolean Variable
 var isCompetitive = true;   //Boolean Variable
