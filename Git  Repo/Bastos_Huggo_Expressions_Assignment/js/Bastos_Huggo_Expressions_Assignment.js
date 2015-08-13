@@ -25,10 +25,7 @@ fifthNumber = prompt("Please enter in a fifth number.");
 var mean = (Number(firstNumber) + Number(secondNumber) + Number(thirdNumber) +
     Number(fourthNumber) + Number(fifthNumber)) / 5;
 
-
-
-
-
-
-
+//outputs
+console.log("These are the calculations of the numbers you entered.");
+console.log("Mean:" + mean);
 
