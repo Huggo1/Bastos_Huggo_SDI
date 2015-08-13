@@ -22,10 +22,18 @@ thirdNumber = prompt("Please enter in a third number.");
 fourthNumber = prompt("Please enter in a fourth number.");
 fifthNumber = prompt("Please enter in a fifth number.");
 
-var mean = (Number(firstNumber) + Number(secondNumber) + Number(thirdNumber) +
+var average = (Number(firstNumber) + Number(secondNumber) + Number(thirdNumber) +
     Number(fourthNumber) + Number(fifthNumber)) / 5;
+
+var sum = (Number(firstNumber) + Number(secondNumber) + Number(thirdNumber) +
+Number(fourthNumber) + Number(fifthNumber));
 
 //outputs
 console.log("These are the calculations of the numbers you entered.");
-console.log("Mean:" + mean);
+console.log("Average:" + average);
+console.log("Sum:" + sum);
 
+// I tried different inputs like all 5 or all 4 or even a variety of numbers.
+// The system always gave me the correct average.
+// A specific example is I tried 10/20/30/40/50 and I got 30 as the average.
+// The
