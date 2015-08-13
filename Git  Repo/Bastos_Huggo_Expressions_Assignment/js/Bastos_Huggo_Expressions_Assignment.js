@@ -14,6 +14,13 @@ var thirdNumber;
 var fourthNumber;
 var fifthNumber;
 
+// Asking user to list a group of numbers.
+
+firstNumber = prompt("Enter in a number.");
+secondNumber = prompt("Please enter in a second number.");
+thirdNumber = prompt("Please enter in a third number.");
+fourthNumber = prompt("Please enter in a fourth number.");
+fifthNumber = prompt("Please enter in a fifth number.");
 
 
 
