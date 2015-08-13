@@ -11,28 +11,31 @@ Expressions Assignment
 var firstNumber;
 var secondNumber;
 var thirdNumber;
-var fourthNumber;
-var fifthNumber;
+var exampleNumbers = [10, 20, 30];
 
 // Asking user to list a group of numbers.
-
-firstNumber = prompt("Enter in a number.");
-secondNumber = prompt("Please enter in a second number.");
-thirdNumber = prompt("Please enter in a third number.");
-fourthNumber = prompt("Please enter in a fourth number.");
-fifthNumber = prompt("Please enter in a fifth number.");
+// While entering in the numbers they are being converte from a string to a number.
+firstNumber = Number(prompt("Enter in a number."));
+secondNumber = Number(prompt("Please enter in a second number."));
+thirdNumber = Number(prompt("Please enter in a third number."));
 
 // This determines the average of the numbers the user enters by adding them all together then dividing by the total.
-var average = (Number(firstNumber) + Number(secondNumber) + Number(thirdNumber) +
-    Number(fourthNumber) + Number(fifthNumber)) / 5;
+var average = (firstNumber + secondNumber + thirdNumber) / 5;
+
+// An array used in calculation for showing an example to the user.
+var exampleAverage = (exampleNumbers[0] + exampleNumbers[1] + exampleNumbers[2]) / 3;
 
 // The sum works by adding all of the numbers together.
-var sum = (Number(firstNumber) + Number(secondNumber) + Number(thirdNumber) +
-Number(fourthNumber) + Number(fifthNumber));
+var sum = firstNumber + secondNumber + thirdNumber;
+
+// Calculating the sum of the array numbers.
+var exampleSum = exampleNumbers[0] + exampleNumbers[1] + exampleNumbers[2];
 
 // Multiplying the numbers all together.
-var multiplied = (Number(firstNumber) * Number(secondNumber) * Number(thirdNumber) *
-Number(fourthNumber) * Number(fifthNumber));
+var multiplied = firstNumber * secondNumber * thirdNumber;
+
+// Multiplying all the numbers in the array together.
+var exampleMultiplied = exampleNumbers[0] * exampleNumbers[1] * exampleNumbers[2];
 
 //outputs
 console.log("These are the calculations of the numbers you entered.");
@@ -45,6 +48,19 @@ console.log("Sum: " + sum);
 
 // Outputting the multiplication of all the numbers.
 console.log("All your numbers multiplied together = " + multiplied);
+
+// Example Numbers
+console.log("The example numbers we used were 10, 20, and 30");
+
+// Example Average
+console.log("Average: " + exampleAverage);
+
+// Example Sum
+console.log("Sum: " + exampleSum);
+
+// Example Multiplication
+console.log("The example numbers multiplied together = " + exampleMultiplied);
+
 
 /*
 I tried different inputs like all 5 or all 4 or even a variety of numbers.
