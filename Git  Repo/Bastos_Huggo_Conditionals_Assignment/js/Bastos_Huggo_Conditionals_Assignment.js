@@ -31,9 +31,10 @@ else if (pennies < 0)
  while (pennies < 0);
 }
 
-else (pennies <= 1000 && pennies > 0)
+else (pennies != clearInterval())
 {
- pennies = prompt("Please enter in an actual number.")
+ do
+ pennies = prompt("Please enter in an actual number.");
 }
 
 
