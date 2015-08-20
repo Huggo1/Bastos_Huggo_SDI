@@ -70,7 +70,7 @@ isNaN(pennies) || isNaN(nickles) || isNaN(dimes)|| isNaN(quarters));          //
 var totalCash; // Total amount of money user has in coins.
 totalCash = ((pennies * 1) + (nickles * 5) + (dimes * 10) + (quarters * 25)) / 100; // This is how the calculator sets that up.
 
-console.log("Your total amount of money is " + totalCash); // This tells you the total amount of money you deposited.
+console.log("Your total amount of money is $" + totalCash); // This tells you the total amount of money you deposited.
 
 moneyYouKeep = (totalCash < 10) ? totalCash * .9 : totalCash; // This sets up how much you keep depending on how much you deposited.
 
