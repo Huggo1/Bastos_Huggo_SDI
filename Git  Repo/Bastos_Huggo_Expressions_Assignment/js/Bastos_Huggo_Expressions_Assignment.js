@@ -14,7 +14,7 @@ var thirdNumber;
 var exampleNumbers = [10, 20, 30];
 
 // Asking user to list a group of numbers.
-// While entering in the numbers they are being converte from a string to a number.
+// While entering in the numbers they are being converted from a string to a number.
 firstNumber = Number(prompt("Enter in a number."));
 secondNumber = Number(prompt("Please enter in a second number."));
 thirdNumber = Number(prompt("Please enter in a third number."));
