@@ -74,7 +74,7 @@ console.log("Your total amount of money is " + totalCash); // This tells you the
 
 moneyYouKeep = (totalCash < 10) ? totalCash * .9 : totalCash; // This sets up how much you keep depending on how much you deposited.
 
-console.log("You are keeping " + moneyYouKeep); // This displays how much you are keeping.
+console.log("You are keeping $" + moneyYouKeep); // This displays how much you are keeping.
 
 // I tested 1 for everything and got .41 which is 41 cents and is correct.
 // It also worked correctly and told me what I was keeping and if it was under 10 it deducted the 10%.
