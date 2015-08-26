@@ -24,6 +24,7 @@ quarters = Number(prompt("Please tell us how many quarters you have. Our machine
 // Taking in user prompt to determine their amount of quarters and converts it to number.
 
 // Set up a do while loop to determine if there is an error the user will have to re-enter in their data.
+
 do
 if (pennies > 1000 || nickels > 1000 || dimes > 1000 || quarters > 1000)
 // The machine only counts to 1,000. If the user enters a single variable over 1,000 they must re-enter all data.
@@ -78,7 +79,6 @@ console.log("You are keeping $" + moneyYouKeep); // This displays how much you a
 // I tested 1 for everything and got .41 which is 41 cents and is correct.
 // It also worked correctly and told me what I was keeping and if it was under 10 it deducted the 10%.
 // It also worked that if you got exactly $10 you would keep the $10.
-
 
 
 
