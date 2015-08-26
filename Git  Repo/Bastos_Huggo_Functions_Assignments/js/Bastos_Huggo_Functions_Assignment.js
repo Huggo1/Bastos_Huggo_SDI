@@ -57,3 +57,15 @@ lottery = chooseLottery(lottery);
 powerballNum = Math.random() * (35-1) + 1;
 powerballNum = Math.round(powerballNum);
 
+if (lottery === "Florida")
+{
+    randomNum = lotteryRoll(1, 53, 6);
+    console.log("Your random numbers for the Florida lottery are " + randomNum);
+}
+
+else if (lottery === "Powerball") 
+{
+    randomNum = lotteryRoll(1, 59, 5);
+    console.log("Your random numbers for the Powerball are " + randomNum);
+    console.log("Your Powerball number is " + powerballNum);
+}
