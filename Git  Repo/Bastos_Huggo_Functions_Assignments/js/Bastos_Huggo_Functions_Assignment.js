@@ -38,17 +38,29 @@ return lotterySelection;
 
 function lotteryRoll(max, min, num)
 {
-    var randomNums = [];
 
-        for (var i = 0; i < num; i++)
-        {
-            randomNums[i] = Math.random() * (max - min) + min;
-            randomNums[i] = Math.round(randomNums[i]);
+    {
+
+        var randomNums = [];
+
+        while (randomNums[0] == randomNums[1] || randomNums[0] == randomNums[2] ||
+        randomNums[0] == randomNums[3] || randomNums[0] == randomNums[4] ||
+        randomNums[0] == randomNums[5] || randomNums[1] == randomNums[2] ||
+        randomNums[1] == randomNums[3] || randomNums[1] == randomNums[4] ||
+        randomNums[1] == randomNums[5] || randomNums[2] == randomNums[3] ||
+        randomNums[2] == randomNums[4] || randomNums[2] == randomNums[5] ||
+        randomNums[3] == randomNums[4] || randomNums[3] == randomNums[5] ||
+        randomNums[4] == randomNums[5]) {
 
 
+            for (var i = 0; i < num; i++) {
+                randomNums[i] = Math.random() * (max - min) + min;
+                randomNums[i] = Math.round(randomNums[i]);
+
+
+            }
         }
-
-
+    }
     return randomNums;
 }
 
@@ -63,7 +75,7 @@ if (lottery === "Florida")
     console.log("Your random numbers for the Florida lottery are " + randomNum);
 }
 
-else if (lottery === "Powerball") 
+else if (lottery === "Powerball")
 {
     randomNum = lotteryRoll(1, 59, 5);
     console.log("Your random numbers for the Powerball are " + randomNum);
