@@ -47,8 +47,6 @@ return lotterySelection;
 // Setting up the function to roll the numbers the user gets for the lottery.
 function lotteryRoll(min, max, num) // Making the lotteryRoll function take in a min, a max, and num.
 {
-
-    {
         // Setting up the randomNums variable array.
         var randomNums = [];
 
@@ -56,14 +54,17 @@ function lotteryRoll(min, max, num) // Making the lotteryRoll function take in a
         // numbers are the same at all. If there is a single duplicate it will
         // re-roll all the numbers. There is definitely a nicer and easier way
         // to write this, but this is the way I knew how to do it.'
-        while (randomNums[0] == randomNums[1] || randomNums[0] == randomNums[2] ||
+
+        while
+       (randomNums[0] == randomNums[1] || randomNums[0] == randomNums[2] ||
         randomNums[0] == randomNums[3] || randomNums[0] == randomNums[4] ||
         randomNums[0] == randomNums[5] || randomNums[1] == randomNums[2] ||
         randomNums[1] == randomNums[3] || randomNums[1] == randomNums[4] ||
         randomNums[1] == randomNums[5] || randomNums[2] == randomNums[3] ||
         randomNums[2] == randomNums[4] || randomNums[2] == randomNums[5] ||
         randomNums[3] == randomNums[4] || randomNums[3] == randomNums[5] ||
-        randomNums[4] == randomNums[5]) {
+        randomNums[4] == randomNums[5])
+        {
 
             // Setting up the for loop to run a certain amount of times based on what is passed in.
             for (var i = 0; i < num; i++)
@@ -74,7 +75,7 @@ function lotteryRoll(min, max, num) // Making the lotteryRoll function take in a
 
             }
         }
-    }
+
 
     // Returning randomNums out of the function.
     return randomNums;
